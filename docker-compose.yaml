@@ -3,7 +3,7 @@ services:
   mysql-db:
     image: 'mysql:latest'
     environment:
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: Nandha@123
       MYSQL_DATABASE: transactiondb
     ports:
       - '3307:3306'
@@ -20,4 +20,4 @@ services:
     environment:
       SPRING_DATASOURCE_URL: 'jdbc:mysql://mysql-db:3306/transactiondb'
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_DATASOURCE_PASSWORD: Nandha@123
